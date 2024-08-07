@@ -53,7 +53,7 @@ function Plugin(props: {
   const [mode, setMode] = useState('properties')
   const [specs, setSpecs] = useState(props.specs)
   const [colorScale, setColorScale] = useState(props.colorScale)
-  const [name, setName] = useState(props.colorScale.name)
+  // const [name, setName] = useState(props.colorScale.name)
 
   const [hueStart, setHueStart] = useState(props.hueStart)
   const [hueEnd, setHueEnd] = useState(props.hueEnd)
@@ -401,16 +401,16 @@ function Plugin(props: {
           <div class="flex flex-col gap-3">
             <h2 class='text-lg'>Options</h2>
 
-            <TextInput
+            {/* <TextInput
               id='name'
               label='Name'
-              value={name || 'New scale'}
+              value={colorScale.name || 'New scale'}
               onInput={(event) => {
                 const newValue = event.currentTarget.value;
                 setName(newValue);
                 updateSpecsOptionsJson('name', newValue);
               }}
-            />
+            /> */}
           </div>
             
           <Button label='Generate' onClick={handleUpdateButtonClick} />
