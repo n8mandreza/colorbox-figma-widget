@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .fg-default {
+        @apply text-alabaster-900 dark:text-alabaster-100;
+        @apply fill-alabaster-900 dark:fill-alabaster-100;
+    }
+
+    .fg-muted {
+        @apply text-alabaster-800 dark:text-grey-400;
+        @apply fill-alabaster-800 dark:fill-grey-400;
+    }
+
+    .fg-subtle {
+        @apply text-alabaster-700 dark:text-grey-500;
+        @apply fill-alabaster-700 dark:fill-grey-500;
+    }
+
+    .fg-onEmphasis {
+        @apply text-white dark:text-alabaster-900;
+        @apply fill-white dark:fill-alabaster-900;
+    }
+
+    .bg-default {
+        @apply bg-alabaster-100 dark:bg-grey-950;
+    }
+
+    .bg-subtle {
+        @apply bg-grey-200 dark:bg-grey-900;
+    }
+
+    .bg-emphasis {
+        @apply bg-alabaster-800 dark:bg-alabaster-200;
+    }
+
+    .bg-inset {
+        @apply bg-alabaster-200 dark:bg-black;
+    }
+
+    .border-default {
+        @apply border-alabaster-300 dark:border-alabaster-700;
+    }
+
+    .border-muted {
+        @apply border-alabaster-200 dark:border-alabaster-800;
+    }
+}

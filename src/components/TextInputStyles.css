@@ -1,0 +1,17 @@
+.textInputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    width: 100%;
+}
+
+.textInputLabel {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.textInputInput {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
