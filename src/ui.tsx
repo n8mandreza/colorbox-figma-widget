@@ -77,7 +77,6 @@ function Plugin(props: {
     {label: 'Quint', value: 'Quint'}
   ]
   const easingOptions = [
-    {label: 'Linear', value: 'linear'}, 
     {label: 'Ease in', value: 'easeIn'}, 
     {label: 'Ease out', value: 'easeOut'}, 
     {label: 'Ease in out', value: 'easeInOut'}
